@@ -13,7 +13,7 @@ load_dotenv()
 if __name__ == "__main__":
     print("Ingesting...")
     loader = TextLoader(
-        "C:\\Users\\SureshBabu\\PycharmProjects\\langchain\\raggist\\dc_comics.txt",
+        "C:\\Users\\SureshBabu\\PycharmProjects\\langchain\\raggist\\vijay_cm.txt",
         encoding="utf-8")
     documents: list[Document] = loader.load()
 
