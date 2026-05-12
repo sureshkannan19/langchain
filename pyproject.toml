@@ -13,6 +13,7 @@ dependencies = [
     "langchain-google-vertexai>=3.2.3",
     "langchain-ollama>=1.0.1",
     "langchain-openai>=1.1.9",
+    "langchain-pinecone>=0.2.13",
     "langsmith>=0.7.1",
     "python-dotenv>=1.2.1",
 ]
